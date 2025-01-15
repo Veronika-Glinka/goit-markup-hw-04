@@ -177,7 +177,7 @@ header .container {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-image.jpg);
+    url(../images/hero-image.jpg);
   padding: 188px 0;
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -279,7 +279,6 @@ header .container {
 
 .team {
   background-color: #f4f4fd;
-  font-weight: 500;
 }
 
 .team-heading {
@@ -323,6 +322,7 @@ header .container {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 /* icons */
@@ -331,7 +331,6 @@ header .container {
   display: flex;
   gap: 24px;
   margin: 0 16px;
-  padding-top: 8px;
 
   justify-content: center;
 }
@@ -482,9 +481,10 @@ header .container {
 .footer-socials-text {
   color: white;
   font-weight: 500;
-  margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  margin-bottom: 16px;
 }
 
 .footer .container {
