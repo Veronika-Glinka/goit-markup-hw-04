@@ -390,27 +390,7 @@ header .container {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item:nth-child(1):hover .portfolio-overlay {
-  transform: translateY(0);
-}
-
-.portfolio-list-item:nth-child(2):hover .portfolio-overlay {
-  transform: translateY(0);
-}
-
-.portfolio-list-item:nth-child(3):hover .portfolio-overlay {
-  transform: translateY(0);
-}
-
-.portfolio-list-item:nth-child(4):hover .portfolio-overlay {
-  transform: translateY(0);
-}
-
-.portfolio-list-item:nth-child(5):hover .portfolio-overlay {
-  transform: translateY(0);
-}
-
-.portfolio-list-item:nth-child(6):hover .portfolio-overlay {
+.portfolio-list-item:hover .portfolio-overlay {
   transform: translateY(0);
 }
 
@@ -419,6 +399,13 @@ header .container {
 
   position: relative;
   overflow: hidden;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list {
@@ -465,6 +452,10 @@ header .container {
   padding: 100px 0;
 }
 
+.footer-logo-container {
+  margin-right: 120px;
+}
+
 .logo-footer {
   margin-bottom: 16px;
 }
@@ -486,6 +477,7 @@ header .container {
 
 .footer-socials-text {
   color: white;
+  font-weight: 500;
   margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -493,7 +485,7 @@ header .container {
 
 .footer .container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 
 .footer .icon-container {
@@ -505,6 +497,6 @@ header .container {
   height: 24px;
 }
 
-.footer .icon-container li:hover {
+.footer .socials-link:hover {
   background-color: #31d0aa;
 }
