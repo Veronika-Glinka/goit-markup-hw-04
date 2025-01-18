@@ -180,6 +180,7 @@ header .container {
     url(../images/hero-image.jpg);
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -483,7 +484,6 @@ header .container {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   margin-bottom: 16px;
 }
 
